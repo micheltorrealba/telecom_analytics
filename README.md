@@ -1,5 +1,7 @@
 # 📍 Análisis del Acceso a Internet y las Brechas de Conectividad en las Provincias de Argentina (2024)
 
+![Dashboard del Proyecto](tableau_dashboard.png)
+
 ## 🧠 Contexto y Objetivo
 
 En la actualidad, el acceso a internet es un factor determinante para el desarrollo económico, social y educativo de cualquier región. En Argentina, a pesar de contar con un número considerable de conexiones, persisten grandes desigualdades entre provincias en términos de cobertura, velocidad de navegación y adopción de tecnologías como la fibra óptica.
@@ -17,7 +19,7 @@ A pesar de que Argentina cuenta con una importante infraestructura de telecomuni
 
 ## 📊 KPIs definidos
 
-Durante el desarrollo del proyecto se definieron cuatro indicadores clave (KPIs) con el objetivo de cuantificar y monitorear los aspectos más relevantes del acceso a internet en las provincias de Argentina. Estos KPIs permiten analizar la situación actual, proyectar mejoras y priorizar decisiones de inversión en conectividad.
+Durante el desarrollo del proyecto se definieron cinco indicadores clave (KPIs) con el objetivo de cuantificar y monitorear los aspectos más relevantes del acceso a internet en las provincias de Argentina. Estos KPIs permiten analizar la situación actual, proyectar mejoras y priorizar decisiones de inversión en conectividad.
 
 ### 🟡 KPI 1 – Proyección de incremento de acceso (+2%)
 **Objetivo:** Medir el impacto de un aumento del 2% en el acceso a internet por cada 100 hogares en cada provincia.  
@@ -48,32 +50,31 @@ Durante el desarrollo del proyecto se definieron cuatro indicadores clave (KPIs)
 
 ### 🗃️ Fuentes y preparación de los datos
 
-Se trabajó con el dataset oficial de ENACOM y fuentes complementarias oficiales que contienen información sobre el acceso a internet en Argentina, distribuidos por provincia. Entre los datos analizados se incluyeron:
+El dataset utilizado proviene de la base de datos oficial de ENACOM (Ente Nacional de Comunicaciones) sobre indicadores de acceso a internet fijo en Argentina, actualizado al segundo trimestre del año 2024.
+
+Se incluyeron las siguientes variables clave:
 
 - Accesos por cada 100 hogares y habitantes.
 - Tecnología de conexión (fibra óptica, cablemodem, ADSL, etc.).
 - Velocidad promedio de bajada (Mbps).
 - Población estimada por provincia.
 
-Los datos fueron limpiados y unificados en un único archivo `.csv`, manteniendo como estructura central el desglose por provincia. Se ajustaron valores nulos, se homogeneizaron nombres de provincias y se agregaron columnas calculadas para facilitar el análisis de KPIs. También se verificó que el archivo final fuera compatible con Tableau como única fuente de datos.
+Los datos fueron tratados, integrados y transformados en un único archivo `.csv`, corregido y estructurado para su uso directo en Tableau. Se eliminaron valores nulos, se ajustaron nombres de provincias para visualización geográfica, y se generaron columnas calculadas para cada uno de los KPIs.
 
 ### 🧪 Análisis exploratorio
 
-El EDA fue realizado en un notebook de Python con Pandas, y se centró en:
+El EDA fue realizado en un notebook de Python utilizando Pandas y se centró en:
 
-- Detección de valores faltantes o inconsistencias.
-- Visualización de distribuciones por tecnología y velocidad.
-- Identificación de outliers en indicadores clave.
-- Verificación de correlaciones iniciales entre población, acceso y tecnología.
-
-Cada paso fue documentado en el notebook con sus respectivas visualizaciones y conclusiones parciales.
+- Revisión de la completitud y consistencia del dataset.
+- Cálculo de estadísticas descriptivas básicas.
+- Confirmación de la viabilidad para visualización en Tableau.
 
 ### ⚙️ Metodología aplicada
 
-1. **Unificación de datos:** Consolidación de múltiples fuentes y transformación de datos brutos en métricas útiles.
-2. **Cálculo de KPIs personalizados:** Aplicación de fórmulas específicas adaptadas a los objetivos del análisis.
-3. **Visualización y diseño del dashboard:** Creación de visualizaciones interactivas en Tableau Public, manteniendo consistencia visual y claridad narrativa.
-4. **Construcción de filtros dinámicos:** Implementación de filtros por provincia para permitir una exploración profunda.
+1. **Integración de fuentes:** Selección y unificación de datos oficiales en un archivo único.
+2. **Cálculo de KPIs personalizados:** Implementación de fórmulas diseñadas para reflejar cobertura, calidad y brechas.
+3. **Visualización y diseño del dashboard:** Desarrollo en Tableau Public, orientado al análisis interactivo por provincia.
+4. **Interactividad:** Inclusión de filtros por provincia, mapas y tarjetas resumen para facilitar el storytelling y la toma de decisiones.
 
 ## 📈 Conclusiones
 
@@ -92,13 +93,12 @@ Cada paso fue documentado en el notebook con sus respectivas visualizaciones y c
 
 ## 📂 Archivos del Repositorio
 
-- `telecom_dataset_final_ok_24provincias.csv`: Dataset final limpio con todas las columnas calculadas para el dashboard.
-- `EDA_notebook.ipynb`: Notebook en Python con el análisis exploratorio completo y visualizaciones iniciales.
-- `dashboard_tableau.png`: Captura del dashboard interactivo.
-- `README.md`: Documento principal con toda la información del proyecto.
+- `dataset_telecom_final_para_mapas.csv`: Dataset definitivo utilizado para todas las visualizaciones y KPIs.
+- `EDA_notebook.ipynb`: Análisis exploratorio de datos en Python.
+- `tableau_dashboard.png`: Captura del dashboard interactivo.
+- `README.md`: Documento principal del proyecto.
 
 ## 👨‍💻 Autor
 
 Michel Torrealba  
 Analista de Datos
-
