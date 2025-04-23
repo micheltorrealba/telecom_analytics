@@ -94,7 +94,7 @@ El EDA fue realizado en un notebook de Python utilizando Pandas y se centró en:
 ## 📂 Archivos del Repositorio
 
 - `dataset_telecom_final_para_mapas.csv`: Dataset definitivo utilizado para todas las visualizaciones y KPIs.
-- `EDA_notebook.ipynb`: Análisis exploratorio de datos en Python.
+- `EDA_Internet_Argentina.ipynb`: Análisis exploratorio de datos en Python.
 - `tableau_dashboard.png`: Captura del dashboard interactivo.
 - `README.md`: Documento principal del proyecto.
 
