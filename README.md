@@ -17,7 +17,7 @@ A pesar de que Argentina cuenta con una importante infraestructura de telecomuni
 
 ## 📊 KPIs definidos
 
-![Dashboard del Proyecto](img/dashboard_tableau.png)
+![Dashboard del Proyecto](tableau_dasboard.png)
 
 Durante el desarrollo del proyecto se definieron cuatro indicadores clave (KPIs) con el objetivo de cuantificar y monitorear los aspectos más relevantes del acceso a internet en las provincias de Argentina. Estos KPIs permiten analizar la situación actual, proyectar mejoras y priorizar decisiones de inversión en conectividad.
 
