@@ -78,18 +78,18 @@ El EDA fue realizado en un notebook de Python utilizando Pandas y se centró en:
 
 ## 📈 Conclusiones
 
-1. **Desigualdad en el acceso:** Provincias como La Pampa y Formosa no alcanzan el 50% de acceso por hogar, mientras que otras superan el 100%.
-2. **Impacto del aumento del 2%:** Provincias con alta población como Buenos Aires podrían sumar millones de nuevos usuarios.
-3. **Brecha digital:** Buenos Aires lidera en cantidad de habitantes sin acceso, lo que urge su priorización.
-4. **Velocidad desigual:** San Luis y CABA tienen velocidades muy superiores al promedio; Chubut y Tierra del Fuego, muy por debajo.
-5. **Adopción de fibra óptica baja en regiones clave:** Especialmente en Buenos Aires, Santiago del Estero y La Rioja.
+1. **Desigualdad en el acceso:** Existen diferencias marcadas entre provincias en cuanto al acceso a internet por cada 100 hogares. Provincias como La Pampa y Formosa no alcanzan el 50% de acceso por hogar, mientras que otras superan el 100%.
+2. **Impacto del aumento del 2%:** La implementación de una mejora del 2% en los accesos por cada 100 hogares generaría un incremento significativo en provincias con alta población, especialmente Buenos Aires, Córdoba y Santa Fe.
+3. **Brecha digital:** Buenos Aires concentra el mayor número de habitantes sin acceso a internet, lo cual refuerza la necesidad de priorizar las políticas de expansión en las zonas más pobladas.
+4. **Velocidad desigual:** San Luis y CABA tienen velocidades muy superiores al promedio; Chubut y Tierra del Fuego, muestran velocidades preocupantemente bajas.
+5. **Adopción de fibra óptica baja en regiones clave:** Algunas provincias con alta población aún tienen bajos porcentajes de conexión por fibra óptica, como Buenos Aires, Santiago del Estero y La Rioja, lo que puede impactar negativamente en la calidad del servicio
 
 ## 📝 Recomendaciones
 
-1. **Priorizar inversiones en provincias con baja penetración y alta población:** Buenos Aires, La Pampa, Tierra del Fuego y Chubut.
-2. **Aplicar metas escalables por provincia:** Mejoras como el 2% permiten planificar por trimestres.
-3. **Expandir la fibra óptica en regiones con base instalada:** Como Santa Fe, Mendoza o Córdoba.
-4. **Considerar el contexto socioeconómico:** No analizar solo números duros; tener en cuenta la densidad y el poder adquisitivo por provincia.
+1. **Priorizar inversiones en provincias con baja penetración y alta población:** En particular: Buenos Aires, La Pampa, Tierra del Fuego y Chubut, donde se combinan baja velocidad, bajo acceso por fibra óptica y grandes cantidades de personas aún no conectadas.
+2. **Aplicar metas escalables por provincia:** Mejoras como el 2% permiten planificar por trimestres. Estas proyecciones permiten medir impacto real y planificar presupuestos de forma escalable y tangible.
+3. **Expandir la fibra óptica en regiones con infraestructura instalada:** En provincias como Córdoba, Mendoza o Santa Fe, donde puede aprovecharse la base instalada.
+4. **Considerar el contexto socioeconómico:** Considerar factores como densidad poblacional y poder adquisitivo, ya que los números duros deben ser interpretados en su contexto geográfico y económico.
 
 ## 📂 Archivos del Repositorio
 
