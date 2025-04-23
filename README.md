@@ -1,4 +1,4 @@
-# Análisis del Acceso a Internet y las Brechas de Conectividad en las Provincias de Argentina (2024)
+# Argentina Digital: Diagnóstico de Acceso, Velocidad y Futuro
 
 ![Dashboard del Proyecto](tableau_dashboard.png)
 
